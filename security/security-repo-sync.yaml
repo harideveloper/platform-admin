@@ -1,3 +1,4 @@
+# security repo sync
 apiVersion: configsync.gke.io/v1alpha1
 kind: RepoSync
 metadata:
@@ -7,6 +8,6 @@ spec:
   sourceFormat: unstructured
   git:
     repo: https://github.com/harideveloper/platform-security.git
-    branch: main
+    branch: master
     dir: /
     auth: none

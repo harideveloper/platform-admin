@@ -8,6 +8,6 @@ spec:
   sourceFormat: unstructured
   git:
     repo: https://github.com/harideveloper/platform-ops.git
-    branch: main
+    branch: master
     dir: /
     auth: none
