@@ -1,8 +1,8 @@
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: role_platform_ops
-  namespace : platform_ops
+  name: role-platform-ops
+  namespace : platform-ops
 rules:
 - apiGroups: [""]
   resources: ["pods"]
