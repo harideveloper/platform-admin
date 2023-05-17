@@ -1,8 +1,9 @@
+# ops repo sync
 apiVersion: configsync.gke.io/v1alpha1
 kind: RepoSync
 metadata:
   name: repo-sync
-  namespace: platform_ops
+  namespace: platform-ops
 spec:
   sourceFormat: unstructured
   git:
