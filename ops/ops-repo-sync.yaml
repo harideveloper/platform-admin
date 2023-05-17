@@ -6,7 +6,7 @@ metadata:
 spec:
   sourceFormat: unstructured
   git:
-    repo: https://github.com/harideveloper/acm-feature2.git
+    repo: https://github.com/harideveloper/platform-ops.git
     branch: main
-    dir: 
+    dir: /
     auth: none
