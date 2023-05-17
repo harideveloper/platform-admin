@@ -1,0 +1,12 @@
+apiVersion: configsync.gke.io/v1alpha1
+kind: RepoSync
+metadata:
+  name: repo-sync
+  namespace: platform_security
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/harideveloper/acm-feature1.git
+    branch: main
+    dir: 
+    auth: none

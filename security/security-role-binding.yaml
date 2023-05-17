@@ -1,0 +1,13 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: rolebinding_platform_security
+  namespace: platform_security
+subjects:
+- kind: ServiceAccount
+  name: ns-reconciler-platform-security
+  namespace: config-management-system
+roleRef:
+  kind: Role
+  name: role_platform_security
+  apiGroup: rbac.authorization.k8s.io
